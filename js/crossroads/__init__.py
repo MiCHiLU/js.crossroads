@@ -2,6 +2,5 @@ from fanstatic import Library, Resource
 
 library = Library('crossroads.js', 'resources')
 
-# Define the resources in the library like this.
-# For options and examples, see the fanstatic documentation.
-# resource1 = Resource(library, 'style.css')
+crossroads = Resource(library, 'crossroads.js',
+                      minified='crossroads.min.js')
